@@ -34,12 +34,21 @@ Array.pop(a)
 return Array
 }
 
+<<<<<<< HEAD
 function removeElementFromBeginningOfArray(Array) {
 const Array1 = Array.slice(1)
+=======
+function removeElementfromBeginningOfArray(Array) {
+const Array1 = Array.slice(0)
+>>>>>>> e105dabcd01a5a8f9029362c8141a41835f62d2c
 return Array1
 }
 
 function removeElementFromEndOfArray(Array) {
+<<<<<<< HEAD
 const Array1 = Array.slice(0, Array.length - 1)
+=======
+const Array1 = Array.slice(-1)
+>>>>>>> e105dabcd01a5a8f9029362c8141a41835f62d2c
 return Array1
 }
